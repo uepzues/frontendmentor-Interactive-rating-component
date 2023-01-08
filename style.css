@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  color: hsl(0, 0%, 100%);
+  font-size: 11px;
+  text-align: center;
+  margin: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  min-height: 100vh;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container,
+.thankYou {
+  background: linear-gradient(
+    to bottom,
+    hsl(224, 19%, 15%),
+    hsl(222, 19%, 11%)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  max-width: 400px;
+}
+
+.main-container > img {
+  background-color: hsl(216, 12%, 54%);
+  display: flex;
+  padding: 1rem;
+  border-radius: 50%;
+  width: 3rem;
+}
+
+.main-container > h1,
+.thankYou > h2 {
+  color: #fff;
+  margin: 2rem 0 1rem;
+}
+
+.submit {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 100%;
+  padding: 1rem;
+  border: 0;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.thankYou {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.thankYou > img {
+  padding: 2rem;
+}
+
+.thankYou > #rate-selected {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 25px;
+  padding: 0.4rem 2rem;
+  min-width: 30%;
+}
+
+.hidden {
+  display: none;
+}
+
+.text {
+  color: hsl(217, 12%, 63%);
+  padding: 0;
+  flex-wrap: wrap;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.select-rating {
+  background-color: hsl(216, 12%, 54%);
+  color: #fff;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 3rem;
+  border: 0;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.select-rating:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.select-rating:focus {
+  background-color: hsl(0, 0%, 80%);
+}
