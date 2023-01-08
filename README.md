@@ -14,7 +14,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -28,14 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/rating-comp1.png)
-![](images/rating-comp2.png)
-
+![images/rating-comp1.png](images/rating-comp1.png)
+![images/rating-comp2.png](images/rating-comp2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://frontendmentor-interactive-rating-component-ecru.vercel.app/https://your-live-site-url.com)
 
 ## My process
 
@@ -44,7 +41,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS
 - Flexbox
-- Mobile-first
 - Vanilla JS
 
 ### What I learned
@@ -54,18 +50,11 @@ I noticed the main div containers was made with a gradient so I did a bit of res
 Had a hiccup on getting multiple innerHtml values and assigning it on a variable--learned array foreach method.
 Learned a little about arrow functions.
 
-
 ### Useful resources
 
 - [w3schools](https://w3schools.com) - A bit easier to digest as it has editable examples.
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) - Great reference for learning.
 
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
-
-
-
+- Frontend Mentor - [@uepzues](https://www.frontendmentor.io/profile/uepsuez)
