@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![images/rating-comp1.png](images/rating-comp1.png)
-![images/rating-comp2.png](images/rating-comp2.png)
+![img1](./images/rating-comp1-fin.png)
+![img2](./images/rating-com2-fin.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://frontendmentor-interactive-rating-component-ecru.vercel.app/https://your-live-site-url.com)
+- Live Site URL: [Interactive Rating Component](https://frontendmentor-interactive-rating-component-ecru.vercel.app)
 
 ## My process
 
